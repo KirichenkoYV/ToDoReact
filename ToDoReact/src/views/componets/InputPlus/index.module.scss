@@ -1,0 +1,23 @@
+.InputPlus {
+    width: 100%;
+    display: grid;
+    grid-template-columns:  1fr 45px;
+    &Value{ 
+        border-radius:  5px;
+        border: 1px solid #b1b1b1;
+        padding: 9px 10px;
+        font: 1rem/1.4 "Gill Sans";
+        color: #709c8d;
+        // background: #709c8d;
+    }
+    &Button {
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background: #709c8d url('../images/plus.svg') no-repeat center;
+        transition: opacity 0.3s;
+        &:hover {
+        opacity: 0.7;
+        }
+    }
+}
