@@ -12,8 +12,6 @@ function App() {
     state.updateTask,
   ]);
 
-  console.log(tasks);
-
   return (
     <article className={styles.article}>
       <h1 className={styles.articleTitle}>Список задач:</h1>

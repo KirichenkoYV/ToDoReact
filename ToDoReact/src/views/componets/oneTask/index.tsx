@@ -72,7 +72,7 @@ function OneTask({
 
       {isEditMode ? (
         <button
-          aria-aria-label="Check"
+          aria-label="Check"
           className={styles.OneTaskCheck}
           onClick={() => {
             onEdited(id, value);
@@ -81,13 +81,13 @@ function OneTask({
         />
       ) : (
         <button
-          aria-aria-label="Edit"
+          aria-label="Edit"
           className={styles.OneTaskEdit}
           onClick={changeValue}
         />
       )}
       <button
-        aria-aria-label="Removed"
+        aria-label="Removed"
         className={styles.OneTaskRemoved}
         onClick={() => {
           if (confirm("Вы уверены,что хотите удалить?")) {
